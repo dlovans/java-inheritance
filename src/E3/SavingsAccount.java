@@ -31,6 +31,7 @@ public class SavingsAccount extends Account {
      */
     public double addInterest() {
         super.deposit(this.interestRate * super.balance);
-        return super.balance + super.balance * this.interestRate;
+        return super.balance;
     }
+
 }
