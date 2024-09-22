@@ -7,7 +7,7 @@ public class Account {
     /**
      * Bank account balance.
      */
-    private double balance;
+    protected double balance;
 
     /**
      * Name of account owner.
