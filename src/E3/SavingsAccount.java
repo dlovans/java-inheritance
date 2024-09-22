@@ -26,9 +26,11 @@ public class SavingsAccount extends Account {
 
     /**
      * Calculates balance after adding interest.
+     * Deposits the interest in account balance.
      * @return - Balance with interest.
      */
     public double addInterest() {
+        super.deposit(this.interestRate * super.balance);
         return super.balance + super.balance * this.interestRate;
     }
 }
