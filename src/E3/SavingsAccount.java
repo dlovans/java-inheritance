@@ -30,4 +30,20 @@ public class SavingsAccount extends Account {
     public void addInterest() {
         super.deposit(this.interestRate * super.balance);
     }
+
+    /**
+     * Transfers funds between accounts.
+     * @param amount - Amount to be transferred.
+     * @param account - Receiving account.
+     */
+    public void transfer(double amount, Account account) {
+        if (amount <= super.balance) {
+            super.withdraw(amount);
+            account.deposit(amount);
+            System.out.println("Transaction successful");
+        } else {
+            System.out.println("Transaction failed. Insufficient funds!");
+        }
+
+    }
 }
