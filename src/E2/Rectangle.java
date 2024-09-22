@@ -12,13 +12,4 @@ public class Rectangle extends Shape {
     public Rectangle(double width, double height) {
         super(width, height);
     }
-
-//    /**
-//     * Calculates area of rectangle.
-//     * @return - Area of rectangle.
-//     */
-//    @Override
-//    public double getArea() {
-//        return super.getWidth() * super.getHeight();
-//    }
 }
