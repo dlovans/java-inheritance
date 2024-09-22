@@ -1,5 +1,8 @@
+import E2.Rectangle;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Rectangle rectangle = new Rectangle(20, 20);
+        System.out.println(rectangle.getArea());
     }
 }
