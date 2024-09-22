@@ -7,7 +7,7 @@ public abstract class Animal {
     /**
      * Name of animal.
      */
-    String name;
+    protected String name;
 
     /**
      * Creates an instance of Animal.
