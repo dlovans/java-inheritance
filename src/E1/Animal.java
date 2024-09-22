@@ -22,6 +22,6 @@ public abstract class Animal {
      * @param food - Food item the animal is eating.
      */
     public void eat(String food) {
-        System.out.printf("%s eating %s.", this.name, food);
+        System.out.printf("%s eating %s.\n", this.name, food);
     }
 }
