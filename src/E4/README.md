@@ -2,5 +2,7 @@
 | --- |-----------------------------------------------------------------------------------|
 | Person | Student, Employee                                                                 |
 | Employee | Professor, TeachingAssistant, Secretary, DepartmentChair, Janitor, SeminarSpeaker |
-| Course | Seminar, Lecture                                                                  |
+| Course | N/A                                                                               |
 | ComputerLab | N/A                                                                               |
+| Seminar | N/A |
+| Lecture | N/A |
